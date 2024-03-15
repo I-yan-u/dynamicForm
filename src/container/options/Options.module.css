@@ -1,0 +1,45 @@
+.radio{
+    pointer-events: none;
+    
+}
+
+.textbox{
+    border: none;
+    border-bottom: 1px solid #6aa3ff;
+    max-width: 80px;
+    overflow-x: hidden;
+    margin: 5px 10px;
+    transition: border 0.3s;
+}
+
+.textbox:hover {
+    border: none;
+    border-bottom: 1.2px solid #f64545;
+}
+
+.textbox:focus {
+    outline: none;
+}
+
+.label{
+    margin: 5px 15px;
+}
+
+.button_a,
+.button_r {
+    width: 30px;
+    margin: 0 3px;
+    text-align: center;
+    cursor: pointer;
+    background-color: #6aa3ff;
+    border: none;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.button_a:hover{
+    background-color: #3de37d9d;
+}
+.button_r:hover {
+    background-color: #f645459d;
+}
